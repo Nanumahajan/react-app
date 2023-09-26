@@ -8,6 +8,7 @@ const ReduxExample = () => {
   return (
     <div>
       <h1>Counter Example </h1>
+      
       <button onClick={() => dispatch(Increment())}>Increment</button>
       <span>{counter}</span>
       <button onClick={() => dispatch(Decrement())}>Decrement</button>
